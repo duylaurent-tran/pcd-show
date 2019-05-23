@@ -13,37 +13,27 @@
     <meta property="og:url" content="https://www.pariscandance.com/" />
     <meta property="og:image" content="https://pariscandance.com/image/pariscandance_students.jpg">
     <meta property="og:image:type" content="image/jpg">
-    <link rel="apple-touch-icon" sizes="180x180" href="image/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="image/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="image/favicon-16x16.png">
-    <link rel="manifest" href="image/site.webmanifest">
-    <link rel="mask-icon" href="image/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+<!--    <link rel="manifest" href="images/site.webmanifest">-->
+    <link rel="mask-icon" href="images/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
 	<title>Paris Can Dance Show - Organisé par Amalia SALLE</title>
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/brands.css" integrity="sha384-VGCZwiSnlHXYDojsRqeMn3IVvdzTx5JEuHgqZ3bYLCLUBV8rvihHApoA1Aso2TZA" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/fontawesome.css" integrity="sha384-GVa9GOgVQgOk+TNYXu7S/InPTfSDTtBalSgkgqQ7sCik56N9ztlkoTr2f/T44oKV" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
-    <script src="js/jquery.countdown.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <style>
         * {
             font-family: 'Roboto', sans-serif;
         }
 
-        header {
-            height: 578px;
-        }
-
         section.container {
             max-width: 800px !important;
-        }
-
-        .bg-dark-pcd {
-            background-color: #010101;
         }
 
         .text-dark-pcd {
@@ -51,97 +41,51 @@
         }
 
         #buy-ticket {
-            border: 2px solid #dc3545!important;
-            color: #dc3545!important;
             min-width: 300px;
             height: 50px;
-        }
-
-        #pcd-logo {
-            padding-top: 150px;
         }
 
         #amalia-salle-avatar {
             height: 250px;
         }
-
-        /* make keyframes that tell the start state and the end state of our object */
-        @-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
-        @-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
-        @keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
-
-        .fade-in {
-            opacity: 0; /* make things invisible upon start */
-            -webkit-animation: fadeIn ease-in 1; /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
-            -moz-animation: fadeIn ease-in 1;
-            animation: fadeIn ease-in 1;
-
-            -webkit-animation-fill-mode: forwards; /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
-            -moz-animation-fill-mode: forwards;
-            animation-fill-mode: forwards;
-
-            -webkit-animation-duration: 1s;
-            -moz-animation-duration: 1s;
-            animation-duration: 1s;
-        }
-
 	</style>
 </head>
 <body>
 <div>
-    <header class="bg-dark-pcd">
-        <div class="container">
-            <div class="fade-in">
-                <img id="pcd-logo" class="mx-auto d-block" src="image/pariscandance_logo.png"
-                     alt="Paris Can Dance logo">
-                <h1 class="text-center text-white mt-4 mb-0">Paris Can Dance Show</h1>
-                <h2 class="text-center text-white h6">organisé par Amalia Salle</h2>
-                <div id="getting-started" class="text-white h1 text-center"></div>
-                <script type="text/javascript">
-                    $("#getting-started")
-                        .countdown("2018/07/09", function (event) {
-                            $(this).text(
-                                event.strftime('J-%D')
-                            );
-                        });
-                </script>
-                <h3 class="text-center text-danger">COMPLET !</h3>
-            </div>
-        </div>
+    <header>
+        <img class="img-fluid w-100 d-block d-sm-none" src="images/pcd-mobile.jpg" alt="Paris Can Dance Mobile Banner">
+        <img class="img-fluid w-100 d-none d-sm-block" src="images/pcd-banner.jpg" alt="Paris Can Dance Banner">
     </header>
-    <img class="img-fluid w-100" src="image/pariscandance_students.jpg" alt="Paris Can Dance students">
+
 	<main>
+        <h1 class="text-center mt-4 mb-0">Paris Can Dance Show</h1>
+        <h2 class="text-center h6">organisé par Amalia Salle</h2>
+        <div id="getting-started" class="text-white h1 text-center"></div>
         <section class="container mt-3 mb-5">
-            <h2 class="text-center">08/07/2018</h2>
-
-            <p>
-                De nombreux chor&eacute;graphes internationaux et leurs danseurs partageront la sc&egrave;ne du
-                magnifique <b>Th&eacute;&acirc;tre du Gymnase Marie Bell</b> avec les &eacute;l&egrave;ves de Paris Can Dance le
-                <b>dimanche 8
-                    juillet</b> dans le 10e arrondissement de Paris.<br>
-                Ils seront l&agrave; pour vous r&eacute;galer d'un spectacle de danse plein d'&eacute;motion, d'&eacute;nergie
-                et de surprises.<br>
-                Venez admirer leur travail, les soutenir et passer une soir&eacute;e inoubliable.<br><br>
-
-                Achetez vos places pour le Paris Can Dance Show en toute s&eacute;curit&eacute; et recevez un ticket
-                &eacute;lectronique vous permettant d'acc&eacute;der au th&eacute;&acirc;tre le jour du
-                spectacle.<br><br>
-            </p>
             <p class="text-center">
-                Horaires : de <b>19H30</b> &agrave; <b>21H30</b>.<br>
+                Créé en 2016 par Amalia Salle - chorégraphe et directrice artistique - le Paris Can Dance Show est un
+                spectacle de danse urbaine et contemporaine présenté par différents professionnels et amateurs
+                passionnés par l’art du spectacle vivant.
+            </p>
+
+            <h5 class="text-center mt-5">Le Trianon, Paris</h5>
+            <p class="text-center">
+                Dimanche 30 Juin à <b>19H30</b>.<br>
                 Pr&eacute;voyez d'arriver 30 minutes &agrave; l'avance.<br>
-                Les places ne sont pas num&eacute;rot&eacute;es.
+                Les places sont num&eacute;rot&eacute;es.
             </p>
 
             <div class="text-center">
-                <button id="buy-ticket" class="btn"><span class="h3 text-danger">SOLD OUT!</span></button>
+                <a href="https://www.fnacspectacles.com/place-spectacle/ticket-evenement/danse-hip-hop-paris-can-dance-show-mantripa-lt.htm">
+                    <button id="buy-ticket" class="btn btn-outline-dark"><span class="h3"><i class="fas fa-ticket-alt"></i> Réserver</span></button>
+                </a>
             </div>
         </section>
 
         <section class="container">
             <hr>
-            <img id="amalia-salle-avatar" src="image/amalia_salle.jpg" alt="Amalia Salle" class="img-fluid mx-auto d-block mt-4">
-            <h2 class="text-center mt-2">Amalia Salle</h2>
+            <img id="amalia-salle-avatar" src="images/amalia_salle.jpg" alt="Amalia Salle" class="img-fluid mx-auto d-block mt-4">
+            <h2 class="text-center mt-3">Amalia Salle</h2>
             <hr style="width: 300px">
             <p>
                 Forte de ses acquis en tant que chorégraphe pour divers LABELS tels que Just Dance, Sony Universal,
