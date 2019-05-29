@@ -1,2 +1,2 @@
-# Paris Can Dance Show 2017-2018
-The official webpage of the Paris Can Dance Show 2017-2018
+# Paris Can Dance Show 2018-2019
+The official webpage of the Paris Can Dance Show 2018-2019
